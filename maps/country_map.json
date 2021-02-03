@@ -43,7 +43,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/lyon.json"
+                 "value":"main.json#start_from_country_map"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -94,7 +94,7 @@
          "name":"layer 2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":64,
          "x":0,
          "y":0
@@ -156,7 +156,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"tilesets_deviant_milkian_1.png",
+         "image":"..\/tilesets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -881,7 +881,7 @@
         {
          "columns":8,
          "firstgid":257,
-         "image":"floortileset.png",
+         "image":"..\/tilesets\/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -904,7 +904,7 @@
         {
          "columns":10,
          "firstgid":321,
-         "image":"custom_tileset_1.png",
+         "image":"..\/tilesets\/custom_tileset_1.png",
          "imageheight":320,
          "imagewidth":320,
          "margin":0,
@@ -917,7 +917,7 @@
         {
          "columns":27,
          "firstgid":421,
-         "image":"country_map.png",
+         "image":"..\/tilesets\/country_map.png",
          "imageheight":928,
          "imagewidth":864,
          "margin":0,
@@ -930,7 +930,7 @@
         {
          "columns":59,
          "firstgid":1204,
-         "image":"country_map_2.png",
+         "image":"..\/tilesets\/country_map_2.png",
          "imageheight":928,
          "imagewidth":1888,
          "margin":0,

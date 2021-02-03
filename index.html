@@ -6,11 +6,14 @@
                 if (path.endsWith('index.html')) {
                     path = path.substr(path, path.length - 'index.html'.length);
                 }
-                var url = 'https://play.workadventu.re/_/global/'+window.location.host+path+'map.json';
+                var url = 'https://play.workadventu.re/_/smile/'+window.location.host+path+'maps/main.json';
                 document.getElementById('mapLink').href = url;
                 document.getElementById('mapLink').innerText = url;
+
+                document.querySelector('meta[name="SKIP_INDEX"]').setAttribute("content", "0;" + url);
             };
         </script>
+        <meta name="SKIP_INDEX" http-equiv="refresh">
     </head>
     <body>
         This website contains a map for <a href="https://workadventu.re">Workadventu.re</a>.
