@@ -156,7 +156,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"slient",
+                 "name":"silent",
                  "type":"bool",
                  "value":true
                 }],
