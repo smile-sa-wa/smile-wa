@@ -194,7 +194,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"country_map.json#start_from_mars"
+                 "value":"country_map.json#start_from_marseille"
                 }],
          "type":"tilelayer",
          "visible":true,
