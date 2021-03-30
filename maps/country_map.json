@@ -23,7 +23,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"grenoble_agency.json#start_from_country_map"
                 }],
@@ -59,9 +59,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/smile\/skc\/office"
+                 "value":"montpellier_agency.json#start_from_country_map"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -95,7 +95,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"marseille_agency.json#start_from_country_map"
                 }],
@@ -131,7 +131,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"lyon_agency.json#start_from_country_map"
                 }],
@@ -258,7 +258,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.1",
+ "tiledversion":"1.5.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -1037,6 +1037,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":1.5,
  "width":47
 }

@@ -41,7 +41,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"grenoble_shadow.json#start_from_grenoble_agency"
                 }],
@@ -164,7 +164,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"country_map.json#start_from_grenoble\n\n"
                 }],

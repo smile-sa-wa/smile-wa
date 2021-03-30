@@ -36,7 +36,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"grenoble_agency.json#start_from_grenoble_shadow\n\n"
                 }],

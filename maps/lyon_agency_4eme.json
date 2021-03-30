@@ -59,7 +59,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"exitSceneUrl",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"country_map.json#start_from_lyon"
                 }],
