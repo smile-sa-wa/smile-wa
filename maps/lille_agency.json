@@ -113,6 +113,17 @@
          "y":0
         }, 
         {
+         "draworder":"topdown",
+         "id":14,
+         "name":"floorLayer",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "compression":"zlib",
          "data":"eJzt2ltqg0AUBmDdWlcS6BK6nN7ynvTybgtdWifQggyxTrSaceb7YAhmQtBz1PkRmwYAAADKcd82zUNvPLZpcywjrnnY\/kqZYxn6kRf9yMsh1PnYGy9t2lzu+ufSuXXvKXz3HMY+s2Pqwv589MZnmzaXu0N0Ht1G+\/4att\/CeN\/QMW1Zt9HzCKjPzc9oep81uv8j08S\/WTI\/j+WrWhza8Wy8Rj\/ifFWrLiHTrNEP+SrdGv0gnX4sY+rz+JQ1hstNfb6VssZwuS0\/3zpHRl7G1LrKyMuYWtfaMvLdSsdYel1\/r\/0p4gw29X9yM3ZPnDt\/MlSvOXWMM9ixkH6M3RPnzp+Emu\/+ux9xBivF2D1x7vzJUD\/CtbUL19R+1gFsQG55d6juXaHrYiy3vFtL3YeUnsuuybuuednyu2MlKu3ZGlxbru+Q1so7pABYm\/NibQYAAAAAAAAAAAAAAAAAAAAAAAAAoO8bkVK92A==",
          "encoding":"base64",
@@ -154,7 +165,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":14,
+ "nextlayerid":15,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
