@@ -4,6 +4,60 @@
  "layers":[
         {
          "compression":"zlib",
+         "data":"eJzt0UEJAAAIADFBsH9kvzYQZUtwcBEAAAAAAP9kbRcw+QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFzSEYIAEw==",
+         "encoding":"base64",
+         "height":100,
+         "id":11,
+         "name":"exit_to_country_map",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"country_map.json#start_from_lille"
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":100,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"zlib",
+         "data":"eJzt0bEJAAAIwDAH8f+THT1BwQR6QSMAAAAAAADgr6yJfX4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcEEDrc4APQ==",
+         "encoding":"base64",
+         "height":100,
+         "id":13,
+         "name":"start_from_country_map",
+         "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
+         "type":"tilelayer",
+         "visible":true,
+         "width":100,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"zlib",
+         "data":"eJzt0UEJAAAIADEfYv\/IIpYQ3OASXAQAAAAAAAAAACNr4wY\/bvEDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBPGhG3AD0=",
+         "encoding":"base64",
+         "height":100,
+         "id":12,
+         "name":"start",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":100,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"zlib",
          "data":"eJzt0UEKgEAMBMHsL\/2yv\/IchD0pGbQa6h4yq6oWAMCPnQE3ALB3BNyAPQAAAAAAAAAAAAAAAAAAeNfTJd+W1vT2duhN\/9kGvemf26E3\/Xtb9Kb\/b4d7dsjLFpnZIjNb5GWP3OyQl79LkiRJkiRJkiRJkiRJkiRJkiRJkiRJ0ne7AB4EFak=",
          "encoding":"base64",
          "height":100,
@@ -88,7 +142,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt2L1OwzAUhuGEG4ENiQVugakzUpmAiQ4wwIiYmBBigZmxA4ifGVTRlZ+CCtwAS0ckboKD1KhWiBsnuO1x8z6S1TS1qsif7ZwkigBUwWwcRXNxuWP4tyhjuxSXO4Y\/GzKmu4yrGjuSxQF5qEEeupxIFqfkAZSyP\/P3XF3OLUhbTf1WG88l\/YtLnV6klrf1Xfa45yTjPJ+RxTAh5OFSpxep5W19VzzfA36zqGfk0YujpvndXD8h5KHV2pDfsnLI6pNeP+Qx0LWsj460F2mvUdRcN85vOf5vr8C6I4+BT4c8tkd8DeQx8K3gGaJWsFWdbU\/zzfYe+EHao7Qnac8O\/a8VzLGyXOpdc09L+u8VrGld2N4Dd6W9SXuX9tHv24jt\/e+V5HFT4jpc6l1zT0v6H0kehyPIZNo0lMwNjIdtL8dkZO3lAAAk2kadduVYs4X8HKaBWRufy\/FFznjm9dHyHDYNbmUs73LG06UPsm0GOm6XgV73tGr18yCXyUrWc6f\/2SKPiTPXRIc8nIzyvsRepUt6rwq1JvFB05wMfa\/yMY+4f+oS+pwEAADI06beAQr5Ys2g4tLvPo5ZE6qckQcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDl\/QAXY04g",
+         "data":"eJzt2D1OwzAYxnGHAYlTwA1AKhdg6syAGICpRYIBjsDMAjNjBxAfM6iiKx8FFbgAS0ckLsGL1KhWiBsnpO3r5v+TrKapVUV+bOdNjAFQBYuRMUtRsWOUb1nGdiUqdozy7MiYHjKuahxIFkfkoQZ56HIiWZySB1DI5tzfczU5tyBtNfFbfTKX9C8+dXqeWt7Vd63EPSce5\/mULEYJIQ+fOj1PLe\/qu17yPeA3i1pKHv3ItOzv9voJIQ+ttkb8lpZDWp\/k+iGPoZ5jfXSlvUh7Naa1bZ3f8\/zffo51Rx5Dnx557I\/5Gshj6FvBM0Q9Z6s6155WNtd74Adpj9KepD179L9WMMeK8ql37T0t7r+Rs6b14XoP3JP2Ju1d2segbzNy979XksdNgevwqXftPS3uvyt5NMaQyaxpKpkbmAzXXo7pSNvLAQCIdaw67cqzZgv5OUwDuzY+l+OLjPHM6qPlOWwW3MpY3mWMp08fpGsEOm6XgV73rGoP8iCX6YrXc3fw2SaPqbPXRJc8vIzzvsRepUtyrwq1JimDpjkZ+l5Vxjzi\/qlL6HMSAAAgS4d6B8jlizWDiku++zhmTahyRh4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACV9wN+MEwx",
          "encoding":"base64",
          "height":100,
          "id":10,
@@ -99,48 +153,20 @@
          "width":100,
          "x":0,
          "y":0
-        }, 
-        {
-         "compression":"zlib",
-         "data":"eJzt0TENAAAIwDAulOBfIy8OCKRVsGQRAAAAAAD\/VG4XMPkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABc0r94AFU=",
-         "encoding":"base64",
-         "height":100,
-         "id":11,
-         "name":"Exit_to_country_map",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":100,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "compression":"zlib",
-         "data":"eJzt0UEJAEAIAEFfNrF\/xeN+NlBwJsHCRgAAAAAAAAAA8FVOF9D5sYsfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABc8gDNKQCC",
-         "encoding":"base64",
-         "height":100,
-         "id":12,
-         "name":"Start_in_agency",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":100,
-         "x":0,
-         "y":0
         }],
- "nextlayerid":13,
+ "nextlayerid":14,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.1",
+ "tiledversion":"1.5.0",
  "tileheight":32,
  "tilesets":[
         {
          "columns":8,
          "firstgid":1,
          "image":"..\/tilesets\/custom_outdoor_1.png",
-         "imageheight":272,
-         "imagewidth":272,
+         "imageheight":256,
+         "imagewidth":256,
          "margin":0,
          "name":"custom_outdoor_1",
          "spacing":0,
@@ -183,13 +209,13 @@
          "margin":0,
          "name":"tilesets_deviant_milkian_1",
          "spacing":0,
-         "tilecount":289,
+         "tilecount":256,
          "tileheight":32,
          "tilewidth":32
         }, 
         {
          "columns":16,
-         "firstgid":548,
+         "firstgid":515,
          "image":"..\/tilesets\/food_and_drinks.png",
          "imageheight":2048,
          "imagewidth":512,
@@ -202,10 +228,10 @@
         }, 
         {
          "columns":9,
-         "firstgid":1572,
+         "firstgid":1539,
          "image":"..\/tilesets\/mapUtilities.png",
-         "imageheight":34,
-         "imagewidth":306,
+         "imageheight":32,
+         "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
          "spacing":0,
@@ -215,6 +241,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":1.5,
  "width":100
 }
