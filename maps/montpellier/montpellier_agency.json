@@ -25,7 +25,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"country_map.json#start_from_montpellier"
+                 "value":"..\/france\/france_map.json#start_from_montpellier"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -207,7 +207,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/tilesets\/tilesets_deviant_milkian_1.png",
+         "image":".\/tilesets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -932,7 +932,7 @@
         {
          "columns":8,
          "firstgid":257,
-         "image":"..\/tilesets\/floortileset.png",
+         "image":".\/tilesets\/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -955,7 +955,7 @@
         {
          "columns":8,
          "firstgid":321,
-         "image":"..\/tilesets\/sign_and_text.png",
+         "image":".\/tilesets\/sign_and_text.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,

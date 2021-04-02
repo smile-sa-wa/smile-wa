@@ -22,3 +22,15 @@ You can lower the game and video qualities to diminish the resource requirement.
 ### Chrome/Chromium browser
 
 Ensure the `Use hardware acceleration when available` option is enabled, otherwise your computer will burn.
+
+## Known problems
+
+### Black tiles
+
+If you have black tiles, this may be due to https://github.com/thecodingmachine/workadventure/issues/749.
+
+Either append `?phaserMode=canvas` to the URL or ask the map creator to fix the map.
+
+## Development
+
+Read the [specific documentation page](docs/development.md).

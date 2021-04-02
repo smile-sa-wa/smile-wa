@@ -189,7 +189,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"country_map.json#start_from_lyon"
+                 "value":"..\/france\/france_map.json#start_from_lyon"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -332,7 +332,7 @@
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/tilesets\/tilesets_deviant_milkian_1.png",
+         "image":".\/tilesets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1156,7 +1156,7 @@
         {
          "columns":13,
          "firstgid":257,
-         "image":"..\/tilesets\/custom_tileset_1.png",
+         "image":".\/tilesets\/custom_tileset_1.png",
          "imageheight":320,
          "imagewidth":416,
          "margin":0,
@@ -1557,7 +1557,7 @@
         {
          "columns":8,
          "firstgid":387,
-         "image":"..\/tilesets\/custom_outdoor_1.png",
+         "image":".\/tilesets\/custom_outdoor_1.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -1570,7 +1570,7 @@
         {
          "columns":8,
          "firstgid":451,
-         "image":"..\/tilesets\/sign_and_text.png",
+         "image":".\/tilesets\/sign_and_text.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,

@@ -25,7 +25,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"..\/sounds\/klospuelung.mp3"
+                 "value":"..\/..\/sounds\/klospuelung.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -166,7 +166,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"country_map.json#start_from_grenoble\n\n"
+                 "value":"..\/france\/france_map.json#start_from_grenoble"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -297,13 +297,13 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.5.0",
  "tileheight":32,
  "tilesets":[
         {
          "columns":16,
          "firstgid":1,
-         "image":"..\/tilesets\/tilesets_deviant_milkian_1.png",
+         "image":"tilesets\/tilesets_deviant_milkian_1.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -1127,7 +1127,7 @@
         {
          "columns":8,
          "firstgid":257,
-         "image":"..\/tilesets\/floortileset.png",
+         "image":"tilesets\/floortileset.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -1150,7 +1150,7 @@
         {
          "columns":13,
          "firstgid":321,
-         "image":"..\/tilesets\/custom_tileset_1.png",
+         "image":"tilesets\/custom_tileset_1.png",
          "imageheight":320,
          "imagewidth":416,
          "margin":0,
@@ -1371,7 +1371,7 @@
         {
          "columns":8,
          "firstgid":451,
-         "image":"..\/tilesets\/custom_outdoor_1.png",
+         "image":"tilesets\/custom_outdoor_1.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -1384,7 +1384,7 @@
         {
          "columns":8,
          "firstgid":515,
-         "image":"..\/tilesets\/sign_and_text.png",
+         "image":"tilesets\/sign_and_text.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -1397,7 +1397,7 @@
         {
          "columns":16,
          "firstgid":579,
-         "image":"..\/tilesets\/cert_safety.png",
+         "image":"tilesets\/cert_safety.png",
          "imageheight":64,
          "imagewidth":512,
          "margin":0,
@@ -1410,7 +1410,7 @@
         {
          "columns":18,
          "firstgid":611,
-         "image":"..\/tilesets\/cija_32x32_expansion for Pipoya_CC0.png",
+         "image":"tilesets\/cija_32x32_expansion for Pipoya_CC0.png",
          "imageheight":4256,
          "imagewidth":576,
          "margin":0,
@@ -1423,7 +1423,7 @@
         {
          "columns":16,
          "firstgid":3005,
-         "image":"..\/tilesets\/furniture.png",
+         "image":"tilesets\/furniture.png",
          "imageheight":960,
          "imagewidth":512,
          "margin":0,
@@ -1436,7 +1436,7 @@
         {
          "columns":8,
          "firstgid":3485,
-         "image":"..\/tilesets\/hasi-tilesheet.png",
+         "image":"tilesets\/hasi-tilesheet.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -1498,7 +1498,7 @@
         {
          "columns":9,
          "firstgid":3549,
-         "image":"..\/tilesets\/mapUtilities.png",
+         "image":"tilesets\/mapUtilities.png",
          "imageheight":32,
          "imagewidth":288,
          "margin":0,
@@ -1511,7 +1511,7 @@
         {
          "columns":7,
          "firstgid":3558,
-         "image":"..\/tilesets\/stuff2.png",
+         "image":"tilesets\/stuff2.png",
          "imageheight":128,
          "imagewidth":224,
          "margin":0,
@@ -1524,7 +1524,7 @@
         {
          "columns":32,
          "firstgid":3586,
-         "image":"..\/tilesets\/stuff.png",
+         "image":"tilesets\/stuff.png",
          "imageheight":416,
          "imagewidth":1024,
          "margin":0,
@@ -1537,7 +1537,7 @@
         {
          "columns":32,
          "firstgid":4002,
-         "image":"..\/tilesets\/stuff_animations.png",
+         "image":"tilesets\/stuff_animations.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -1694,6 +1694,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":1.5,
  "width":85
 }
