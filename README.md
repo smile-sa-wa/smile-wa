@@ -4,7 +4,7 @@
 
 * Arrow keys to move
 * `Shift` to run
-* `Ctrl` + mouse scroll wheel to zoom in/zoom out
+* Zoom in/zoom out with your browser controls or `Ctrl` + mouse scroll wheel
 
 ## Zone specificities
 
